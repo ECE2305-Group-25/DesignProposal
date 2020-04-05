@@ -1,0 +1,14 @@
+# Ignore silly tex files that don't matter
+*.aux
+*.dvi
+*.log
+*.out
+*.gz
+*.toc
+*.tof
+# Ignore generated PDFs
+*.pdf
+# Ignore generated indexes
+*.lof
+*.lot
+*.tot
