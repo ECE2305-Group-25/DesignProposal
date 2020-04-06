@@ -1,0 +1,92 @@
+\documentclass[12pt,oneside]{report}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks=false]{hyperref} % Use hyperlinks in toc/tof/tot
+%\usepackage{titletoc} % Customize section titles
+%\usepackage{helvet} % The one true font
+\usepackage{indentfirst}
+\usepackage{graphicx} % Pictures
+\usepackage{newclude}
+\graphicspath{{figures/}}
+
+% Chapter heading styling - make it more report appropriate
+\makeatletter
+\def\@makechapterhead#1{%
+  {\parindent \z@ \raggedright \normalfont
+    \interlinepenalty\@M
+    \huge \thechapter\ \ \ #1\par\nobreak
+    \vskip 40\p@
+  }}
+\def\@makeschapterhead#1{%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \huge  #1\par\nobreak
+    \vskip 40\p@
+  }}
+\makeatother
+
+% Generates an un-numbered chapter marker and automatically adds it to the
+% table of contents.
+\newcommand{\nchapter}[1]{
+	\chapter*{{#1}}
+	\addcontentsline{toc}{chapter}{{#1}}
+}
+
+% Insert a properly formatted figure
+\newcommand{\nfigure}[2]{
+	\begin{figure}
+		\begin{center}
+			\includegraphics[width=0.5\textwidth ,keepaspectratio]{#1}
+		\end{center}
+		\caption{#2}
+		\label{fig:#1}
+		%\addcontentsline{tof}{section}{{#2}}
+	\end{figure}
+}
+
+
+\begin{document}
+
+%%
+% TITLE PAGE
+%%
+\begin{titlepage}
+\centering
+{\scshape \huge Toilet Paper As-A-Service\\(TPaaS)}
+\vspace{1cm}
+\begin{center}
+\includegraphics[width=10cm]{roll.png}
+\end{center}
+\vspace{1cm}\par
+{\Large
+	Important words go here blah blah blah
+}
+\vspace{1cm}\par
+{\Large by}
+\vspace{1mm}\par
+{\Large \itshape
+	Nicholas H. Hollander \\
+	Bryce T. Rower \\
+	Brendan M. Train \\
+	Matthew R. Hagan \\}
+\vspace{1cm}\par
+{\Large Date}
+\vspace{2mm}\par
+{\Large \itshape \today}
+\end{titlepage}
+
+
+\nchapter{Contents}
+\makeatletter
+\@starttoc{toc}
+\makeatother
+\clearpage
+
+\include{problem_definition}
+\include{proposed_solution}
+\include{implementation_approach_tasks}
+\include{evaluation_strategy}
+\include{logistics_timeline}
+
+\end{document}
