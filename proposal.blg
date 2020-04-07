@@ -1,0 +1,21 @@
+[1] Config.pm:304> INFO - This is Biber 2.12
+[1] Config.pm:307> INFO - Logfile is 'proposal.blg'
+[90] biber:315> INFO - === Tue Apr  7, 2020, 03:00:17
+[164] Biber.pm:371> INFO - Reading 'proposal.bcf'
+[382] Biber.pm:889> INFO - Found 6 citekeys in bib section 0
+[422] Biber.pm:4093> INFO - Processing section 0
+[456] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[459] bibtex.pm:1512> INFO - LaTeX decoding ...
+[482] bibtex.pm:1329> INFO - Found BibTeX data source 'bibliography.bib'
+[486] Utils.pm:193> WARN - month field 'Mar' in entry 'probdef_australia' is not an integer - this will probably not sort properly.
+[489] Utils.pm:193> WARN - month field 'Mar' in entry 'probdef_california' is not an integer - this will probably not sort properly.
+[505] Utils.pm:193> WARN - month field 'Feb' in entry 'kaufman_2009' is not an integer - this will probably not sort properly.
+[521] Utils.pm:193> WARN - year field 'U.S. Patent 3 297 269A, Jan 1967' in entry 'mcgrew_tpdisp' is not an integer - this will probably not sort properly.
+[532] Utils.pm:193> WARN - year field 'U.S. Patent 6 820 785B2, Dec 2001' in entry 'kclark_disp' is not an integer - this will probably not sort properly.
+[566] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[566] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[566] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[567] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[590] bbl.pm:636> INFO - Writing 'proposal.bbl' with encoding 'UTF-8'
+[596] bbl.pm:739> INFO - Output to proposal.bbl
+[596] Biber.pm:110> INFO - WARNINGS: 5

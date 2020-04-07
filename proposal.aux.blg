@@ -1,0 +1,5 @@
+[1] Config.pm:304> INFO - This is Biber 2.12
+[1] Config.pm:307> INFO - Logfile is 'proposal.aux.blg'
+[96] biber:315> INFO - === Tue Apr  7, 2020, 01:44:53
+[191] Utils.pm:209> ERROR - Cannot find control file 'proposal.aux.bcf'! - Did latex run successfully on your .tex file before you ran biber?
+[191] Biber.pm:114> INFO - ERRORS: 1

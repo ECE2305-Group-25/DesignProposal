@@ -1,0 +1,152 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{probdef_australia}{misc}{}
+      \list{publisher}{2}{%
+        {Guardian News}%
+        {Media}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Guardian}
+      \field{month}{3}
+      \field{title}{'It isn't Mad Max': women charged after fight over toilet paper in Sydney}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/australia-news/2020/mar/07/it-isnt-mad-max-police-warning-after-shoppers-brawl-over-toilet-paper-in-sydney
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/australia-news/2020/mar/07/it-isnt-mad-max-police-warning-after-shoppers-brawl-over-toilet-paper-in-sydney
+      \endverb
+    \endentry
+    \entry{probdef_california}{misc}{}
+      \list{publisher}{1}{%
+        {FOX 10 Phoenix}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FOX 10 Phoenix}
+      \field{month}{3}
+      \field{title}{Deputies: 8 arrested in California for price-gouging toilet paper, hand sanitizer}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.fox10phoenix.com/news/deputies-8-arrested-in-california-for-price-gouging-toilet-paper-hand-sanitizer
+      \endverb
+      \verb{url}
+      \verb https://www.fox10phoenix.com/news/deputies-8-arrested-in-california-for-price-gouging-toilet-paper-hand-sanitizer
+      \endverb
+    \endentry
+    \entry{kaufman_2009}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6e47c3c13af2a085a5187d5f86dff986}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The New York Times}%
+      }
+      \strng{namehash}{6e47c3c13af2a085a5187d5f86dff986}
+      \strng{fullhash}{6e47c3c13af2a085a5187d5f86dff986}
+      \strng{bibnamehash}{6e47c3c13af2a085a5187d5f86dff986}
+      \strng{authorbibnamehash}{6e47c3c13af2a085a5187d5f86dff986}
+      \strng{authornamehash}{6e47c3c13af2a085a5187d5f86dff986}
+      \strng{authorfullhash}{6e47c3c13af2a085a5187d5f86dff986}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The New York Times}
+      \field{month}{2}
+      \field{title}{Mr. Whipple Left It Out: Soft Is Rough on Forests}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://www.nytimes.com/2009/02/26/science/earth/26charmin.html
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/2009/02/26/science/earth/26charmin.html
+      \endverb
+    \endentry
+    \entry{probdef_census}{misc}{}
+      \list{publisher}{1}{%
+        {United States Census Bureau}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Census Bureau QuickFacts}
+      \field{title}{U.S. Census Bureau QuickFacts: United States}
+      \verb{urlraw}
+      \verb https://www.census.gov/quickfacts/fact/table/US/HSD310218#HSD310218
+      \endverb
+      \verb{url}
+      \verb https://www.census.gov/quickfacts/fact/table/US/HSD310218#HSD310218
+      \endverb
+    \endentry
+    \entry{mcgrew_tpdisp}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f9ce5991f3a3c62509c05a0af5c68db7}{%
+           family={Mcgrew},
+           familyi={M\bibinitperiod},
+           given={Elwood\bibnamedelima F},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9ce5991f3a3c62509c05a0af5c68db7}
+      \strng{fullhash}{f9ce5991f3a3c62509c05a0af5c68db7}
+      \strng{bibnamehash}{f9ce5991f3a3c62509c05a0af5c68db7}
+      \strng{authorbibnamehash}{f9ce5991f3a3c62509c05a0af5c68db7}
+      \strng{authornamehash}{f9ce5991f3a3c62509c05a0af5c68db7}
+      \strng{authorfullhash}{f9ce5991f3a3c62509c05a0af5c68db7}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electric Toilet Paper Dispenser}
+      \field{year}{U.S. Patent 3 297 269A, Jan 1967}
+    \endentry
+    \entry{kclark_disp}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3cf58feb4071ed93f6907a50d9148c0c}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Kimberly\bibnamedelimb Clark\bibnamedelima Worldwide},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cf58feb4071ed93f6907a50d9148c0c}
+      \strng{fullhash}{3cf58feb4071ed93f6907a50d9148c0c}
+      \strng{bibnamehash}{3cf58feb4071ed93f6907a50d9148c0c}
+      \strng{authorbibnamehash}{3cf58feb4071ed93f6907a50d9148c0c}
+      \strng{authornamehash}{3cf58feb4071ed93f6907a50d9148c0c}
+      \strng{authorfullhash}{3cf58feb4071ed93f6907a50d9148c0c}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electrical roll product dispenser}
+      \field{year}{U.S. Patent 6 820 785B2, Dec 2001}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

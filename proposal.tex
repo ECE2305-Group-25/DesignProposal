@@ -6,7 +6,9 @@
 %\usepackage{helvet} % The one true font
 \usepackage{indentfirst}
 \usepackage{graphicx} % Pictures
-\usepackage{newclude}
+\usepackage{newclude} % Fix \include bugs
+\usepackage[style=ieee]{biblatex}  % ieee bibliography
+\usepackage{setspace}
 \graphicspath{{figures/}}
 
 % Chapter heading styling - make it more report appropriate
@@ -45,6 +47,9 @@
 	\end{figure}
 }
 
+% Read bibliography info from bibligraphy.bib
+\addbibresource{bibliography.bib}
+
 
 \begin{document}
 
@@ -76,6 +81,9 @@
 {\Large \itshape \today}
 \end{titlepage}
 
+%%
+% CONTENTS PAGE
+%%
 
 \nchapter{Contents}
 \makeatletter
@@ -83,10 +91,24 @@
 \makeatother
 \clearpage
 
+%%
+% CHAPTERS
+%%
+
+\onehalfspacing
+
 \include{problem_definition}
 \include{proposed_solution}
 \include{implementation_approach_tasks}
 \include{evaluation_strategy}
 \include{logistics_timeline}
+
+\singlespacing
+
+%%
+% BIBLIOGRAPHY
+%%
+
+\printbibliography
 
 \end{document}
