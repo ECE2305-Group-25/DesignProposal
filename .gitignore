@@ -8,7 +8,7 @@
 *.tof
 *.blg
 # Ignore generated PDFs
-*.pdf
+#*.pdf
 # Ignore generated indexes
 *.lof
 *.lot

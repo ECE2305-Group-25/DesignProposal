@@ -146,19 +146,70 @@
       \field{title}{Electrical roll product dispenser}
       \field{year}{U.S. Patent 6 820 785B2, Dec 2001}
     \endentry
+    \entry{raspberry_pi_iot}{article}{}
+      \name{author}{2}{}{%
+        {{hash=808a53e3f1fb028063528112d9af61e3}{%
+           family={Chea\bibnamedelima Zhao},
+           familyi={C\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={Jayanand\bibnamedelima Jegatheesan},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2ee65762a21a3fdf2cc4f8858ea4b823}{%
+           family={Loon},
+           familyi={L\bibinitperiod},
+           given={Son},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{811cdf959f8c85a662c6e3a51d6d6f15}
+      \strng{fullhash}{811cdf959f8c85a662c6e3a51d6d6f15}
+      \strng{bibnamehash}{811cdf959f8c85a662c6e3a51d6d6f15}
+      \strng{authorbibnamehash}{811cdf959f8c85a662c6e3a51d6d6f15}
+      \strng{authornamehash}{811cdf959f8c85a662c6e3a51d6d6f15}
+      \strng{authorfullhash}{811cdf959f8c85a662c6e3a51d6d6f15}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Networks and Applications}
+      \field{title}{Exploring IOT Application Using Raspberry Pi}
+      \field{year}{2015}
+    \endentry
     \entry{rest_api_rulebook}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5aa9995c7bf3e799e0d5a6a9dc05d7d2}{%
+           family={Massé},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=8f295111c7939d6d6e8887c48fd6c2c4}{%
+           family={Laurent},
+           familyi={L\bibinitperiod},
+           given={Simon\bibnamedelima St.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
       \list{publisher}{1}{%
         {O'Reilly}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \strng{namehash}{5aa9995c7bf3e799e0d5a6a9dc05d7d2}
+      \strng{fullhash}{5aa9995c7bf3e799e0d5a6a9dc05d7d2}
+      \strng{bibnamehash}{5aa9995c7bf3e799e0d5a6a9dc05d7d2}
+      \strng{authorbibnamehash}{5aa9995c7bf3e799e0d5a6a9dc05d7d2}
+      \strng{authornamehash}{5aa9995c7bf3e799e0d5a6a9dc05d7d2}
+      \strng{authorfullhash}{5aa9995c7bf3e799e0d5a6a9dc05d7d2}
+      \strng{editorbibnamehash}{8f295111c7939d6d6e8887c48fd6c2c4}
+      \strng{editornamehash}{8f295111c7939d6d6e8887c48fd6c2c4}
+      \strng{editorfullhash}{8f295111c7939d6d6e8887c48fd6c2c4}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{REST API Design Rulebook}
       \field{year}{2012}
     \endentry
     \entry{python}{article}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labeltitlesource}{title}
       \field{abstract}{The official home of the Python Programming Language}
       \field{title}{Welcome to Python.org}
@@ -170,8 +221,8 @@
       \endverb
     \endentry
     \entry{tox}{article}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{title}{Welcome to the tox automation project — tox 3.14.7.dev5 documentation}
       \field{year}{2020}

@@ -2002,11 +2002,12 @@
     <bcf:citekey order="4">probdef_census</bcf:citekey>
     <bcf:citekey order="5">mcgrew_tpdisp</bcf:citekey>
     <bcf:citekey order="6">kclark_disp</bcf:citekey>
-    <bcf:citekey order="7">rest_api_rulebook</bcf:citekey>
-    <bcf:citekey order="8">python</bcf:citekey>
-    <bcf:citekey order="9">tox</bcf:citekey>
-    <bcf:citekey order="10">pylint</bcf:citekey>
-    <bcf:citekey order="11">flake8</bcf:citekey>
+    <bcf:citekey order="7">raspberry_pi_iot</bcf:citekey>
+    <bcf:citekey order="8">rest_api_rulebook</bcf:citekey>
+    <bcf:citekey order="9">python</bcf:citekey>
+    <bcf:citekey order="10">tox</bcf:citekey>
+    <bcf:citekey order="11">pylint</bcf:citekey>
+    <bcf:citekey order="12">flake8</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
